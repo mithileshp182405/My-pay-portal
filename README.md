@@ -16,7 +16,7 @@ Open `index.html` in a browser — it links to `style.css` and `script.js` in th
 
 - **Saved UPI IDs** — pick from preset UPI IDs instead of typing them every time.
 - **Passcode-locked UPI IDs** — some saved UPI IDs are locked behind a passcode so they can't be selected accidentally or by anyone else using the device:
-  - `UPI ID · SBIN5159` and `UPI ID · PhonePe Wallet` → passcode `1******5`
+  - `UPI ID · SBIN5159` and `UPI ID · Paytm` → passcode `1******5`
   - `UPI ID · RT1992` → passcode `1**2`
   - `UPI ID · UBIN1254` and `Custom UPI ID` are not locked.
 - **Custom UPI ID** — type any UPI ID (`name@bank`) directly, no lock.
@@ -32,7 +32,7 @@ Open `index.html` in a browser — it links to `style.css` and `script.js` in th
 In `index.html`, each saved UPI ID is one `.id-option` block, e.g.:
 
 ```html
-<div class="id-option" data-vpa="rajariventh-4@okaxis" data-label="UPI ID · RT1992" data-locked="true" data-passcode="1**2">
+<div class="id-option" data-vpa="***********@okaxis" data-label="UPI ID · RT1992" data-locked="true" data-passcode="1**2">
   ...
 </div>
 ```
