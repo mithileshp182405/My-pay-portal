@@ -32,7 +32,7 @@ Open `index.html` in a browser — it links to `style.css` and `script.js` in th
 In `index.html`, each saved UPI ID is one `.id-option` block, e.g.:
 
 ```html
-<div class="id-option" data-vpa="rajariventh-4@okaxis" data-label="UPI ID · RT1812" data-locked="true" data-passcode="1812">
+<div class="id-option" data-vpa="rajariventh-4@okaxis" data-label="UPI ID · RT1992" data-locked="true" data-passcode="1**2">
   ...
 </div>
 ```
@@ -40,7 +40,7 @@ In `index.html`, each saved UPI ID is one `.id-option` block, e.g.:
 - `data-vpa` — the actual UPI ID used to build the payment link.
 - `data-label` — text shown above the QR code when this ID is selected.
 - `data-locked="true"` — add this to require a passcode before the ID can be selected (omit to leave it open).
-- `data-passcode="..."` — the passcode for that specific ID. If omitted, it falls back to the default passcode set in `script.js` (`const PASSCODE = '16241805';`).
+- `data-passcode="..."` — the passcode for that specific ID. If omitted, it falls back to the default passcode set in `script.js` (`const PASSCODE = '1******5';`).
 
 ## Notes
 
